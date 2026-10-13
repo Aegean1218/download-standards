@@ -1,0 +1,6 @@
+interface:
+  display_name: "标准规范下载"
+  short_description: "查找各领域国内外标准规范全文，核验版本、修订与完整性，说明下载障碍和替代渠道"
+  default_prompt: "使用 $download-standards 查找并尽力下载指定标准规范的完整正式版本，核对状态、修订、水印和完整性，并说明未取得项的可用渠道。"
+policy:
+  allow_implicit_invocation: true
