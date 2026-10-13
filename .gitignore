@@ -1,0 +1,22 @@
+# Environments and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+# User output, downloaded standards and temporary files
+outputs/
+work/
+*.pdf
+*.doc
+*.docx
+*.zip
+
+# Private request context
+.env
+.env.*
+*headers*.json
+*cookie*.json
+*token*.json
